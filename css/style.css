@@ -25,8 +25,12 @@
 /* Layout */
 
 header{
-
+    height: 85px;
+    position: fixed;
+    width: 100vw;
+    z-index: 20;
 }
+
 
 main{
 
@@ -43,14 +47,41 @@ footer{
 /* Debug */
 
 .debug header{
-    
+    border: 2px dashed rgb(0, 255, 0);
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
 }
 
-.debug main{
+.debug header .logo,
+.debug header #nav-left,
+.debug header #nav-right,
+.debug header .login{
+    float: left;
+    height: 100%;
+}
+.debug header .logo{
+    border: 2px dashed rgb(0, 205, 0);
+    width: 10%;
+}
 
+.debug header #nav-left{
+    border: 2px dashed rgb(0, 155, 0);
+    width: 40%;
+}
+
+.debug header #nav-right{
+    border: 2px dashed rgb(0, 55, 0);
+    width: 40%;
+}
+
+.debug header .login{
+    border: 2px dashed rgb(0, 105, 0);
+    width: 10%;
 }
 
 .debug footer{
-
+   
 }
 /* / Debug */
