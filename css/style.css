@@ -29,6 +29,7 @@ header{
     position: fixed;
     width: 100vw;
     z-index: 20;
+    line-height: 85px;
 }
 
 
