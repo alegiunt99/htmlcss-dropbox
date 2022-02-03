@@ -122,6 +122,63 @@ header #begin{
 header #begin a:hover{
     background-color: #7eb2ff;
 }
+
+main{
+    width: 100%;
+    height: 1400px;
+    margin-top: 86px;
+}
+
+main #jumbo-tron{
+    background-color: #99bbdf;
+    width: 100%;
+    height: 613px;
+    margin-bottom: 30px;
+}
+
+#jumbo-tron #jt-img{
+    height: 59%;
+    width: 56%;
+    float: right;
+    position: relative;
+}
+
+#jumbo-tron #jt-img img{
+    width: 112%;
+    position: absolute;
+    bottom: 230px;
+    right: -3px;
+}
+
+#jumbo-tron #jt-text{
+    padding: 62px 100px;
+    width: 83%;
+}
+
+#jt-text h1{
+    font-size: 57px;
+    margin-bottom: 30px;
+}
+
+#jt-text p{
+    font-size: 17px;
+    width: 43%;
+    margin-bottom: 30px;
+}
+
+#jt-text a:hover{
+    background-color: #7eb2ff;
+}
+
+#deny{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.fas{
+    font-size: 37px;
+}
+
 /* / Layout */
 
 
@@ -194,7 +251,7 @@ header #begin a:hover{
     text-align: center;
     font-size: 16px;
 }
- */
+ *
 
 .debug main{
     border: 2px dashed red;
@@ -209,16 +266,18 @@ header #begin a:hover{
     border: 2px dashed turquoise;
     width: 100%;
     height: 538px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
 
 .debug #jumbo-tron #jt-img{
     border: 2px dashed green;
-    height: 70%;
-    width: 65%;
+    width: 56%;
     float: right;
-    margin-top: 240px;
+    margin-top: 173px;
+    position: relative;
 }
+ */
+
 
 .debug footer{
    
