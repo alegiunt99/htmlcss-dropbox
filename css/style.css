@@ -21,6 +21,14 @@ ul{
     list-style-type: none;
 }
 
+.btn-gen{
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #4c94ff;
+    color: white;
+    text-decoration: none;
+}
+
 
 /* / Utilities */
 
@@ -29,10 +37,12 @@ ul{
 
 header{
     height: 85px;
+    background-color: white;
     position: fixed;
     width: 100vw;
     z-index: 20;
     line-height: 85px;
+
 }
 
 
@@ -47,13 +57,13 @@ footer{
 header .logo,
 header #nav-left,
 header #nav-right,
-header .login{
+header #begin{
     float: left;
     height: 100%;
 }
 
 header .logo,
-header .login{
+header #begin{
     width: 10%;
 }
 
@@ -96,6 +106,15 @@ header li a{
 header li a:hover{
     color: rgb(83, 83, 214);
 }
+
+header #begin{
+    text-align: center;
+    font-size: 16px;
+}
+
+header #begin a:hover{
+    background-color: #7eb2ff;
+}
 /* / Layout */
 
 
@@ -113,7 +132,7 @@ header li a:hover{
 .debug header .logo,
 .debug header #nav-left,
 .debug header #nav-right,
-.debug header .login{
+.debug header #begin{
     float: left;
     height: 100%;
 }
@@ -162,9 +181,11 @@ header li a:hover{
 }
 
 
-.debug header .login{
+.debug header #begin{
     border: 2px dashed rgb(0, 105, 0);
     width: 10%;
+    text-align: center;
+    font-size: 16px;
 }
 
 .debug footer{
