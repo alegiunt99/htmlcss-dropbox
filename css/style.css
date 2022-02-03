@@ -133,7 +133,7 @@ main #jumbo-tron{
     background-color: #99bbdf;
     width: 100%;
     height: 613px;
-    margin-bottom: 30px;
+    margin-bottom: 270px;
 }
 
 #jumbo-tron #jt-img{
@@ -179,6 +179,41 @@ main #jumbo-tron{
     font-size: 37px;
 }
 
+#season-ticket{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+}
+
+#st-title{
+ width: 100%;
+ height: 150px;
+ margin-bottom: 5%;
+}
+
+#st-title h2{
+    margin-bottom: 38px;
+}
+
+.first-col,
+.central-col,
+.right-col{
+   border: 1px solid black; 
+   float: left;
+   width: 30%;
+   height: 1000px;
+}
+
+.contact-us{
+   width: 100%;
+   height: 250px;
+   position: absolute;
+   bottom:0px;
+}
+
+label{
+    margin-right: 20px;
+}
 /* / Layout */
 
 
@@ -278,6 +313,50 @@ main #jumbo-tron{
 }
  */
 
+.debug #season-ticket{
+     position: relative;
+     border: 2px dashed red;
+     width: 100%;
+     height: 1500px;
+ }
+ /*
+
+.debug #st-title{
+    border: 2px dashed green;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5%; */
+
+
+
+.debug .first-col,
+.debug .central-col,
+.debug .right-col{
+    float: left;
+    width: 30%;
+    height: 1000px;
+}
+
+.debug .first-col{
+    border: 2px dashed orange;
+}
+
+.debug .central-col{
+    border: 2px dashed rgb(255, 0, 200);
+    margin: 0 5%;
+}
+
+.debug .right-col{
+    border: 2px dashed rgb(83, 125, 240);
+}
+
+.debug .contact-us{
+    border: 2px dashed rgb(187, 255, 0);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    bottom:0px;
+}
 
 .debug footer{
    
