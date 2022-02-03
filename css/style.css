@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Utilities*/
+
+
+
+/* / Utilities */
+
+
+/* Layout */
+
+header{
+
+}
+
+main{
+
+}
+
+footer{
+
+}
+
+
+/* / Layout */
+
+
+/* Debug */
+
+.debug header{
+    
+}
+
+.debug main{
+
+}
+
+.debug footer{
+
+}
+/* / Debug */
