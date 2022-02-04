@@ -496,6 +496,7 @@ main #jumbo-tron{
     height: 350px;
     width: 100%;
     position: relative;
+    margin-bottom: 150px;
 }
 
 #begin-big-box h3{
@@ -514,12 +515,63 @@ main #jumbo-tron{
     padding: 5px 71px;
 }
 
+#questions-freq{
+    width: 100%;
+    height: 470px;
+}
 
+#questions-freq .btm-tp{
+    border-top: 1px solid rgb(209 209 209);
+    border-bottom: 1px solid rgb(209 209 209);
+    height: 75px;
+}
+
+.btm-tp .question{
+    height: 75px;
+    line-height: 75px;
+}
+
+.btm-tp .answer{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.btm-tp:hover{
+    margin-bottom: 150px;
+}
+
+.btm-tp:hover .answer{
+    display: block;
+}
+
+.btm-tp:hover .fa-chevron-right:before{
+    content: "\f078";
+}
+
+
+#questions-freq h2{
+    font-size: 22px;
+    display: inline;
+}
+    
+#questions-freq i{
+    padding-left: 191px;
+}
+
+.qstn-frq h1{
+    margin-bottom: 40px;
+}
 /* / Layout */
 
 
 /* Debug *
 
+.debug #questions-freq{
+    border: 1px dashed red;
+}
+
+/*
 .debug .team-partners{
     border: 2px dashed red;
     height: 400px;
