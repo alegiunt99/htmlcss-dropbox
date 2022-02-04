@@ -187,7 +187,7 @@ main #jumbo-tron{
     position: relative;
     width: 100%;
     height: 1600px;
-    margin-bottom: 270px;
+    margin-bottom: 180px;
 }
 
 #st-title{
@@ -299,6 +299,45 @@ main #jumbo-tron{
     margin-bottom: 32px;
 }
 
+#find-partner{
+    width: 100%;
+    height: 500px;
+}
+
+#find-partner .fp-photo,
+#find-partner .fp-text{
+    float: left;
+    height: 100%;
+}
+
+#find-partner .fp-photo{
+    width: 55%;
+    margin-right: 5%;
+}
+
+#find-partner .fp-photo img{
+    width: 100%;
+}
+
+#find-partner .fp-text{
+    width: 40%;
+    padding: 10px 30px;
+}
+
+.fp-text h2,
+.fp-text p{
+    margin-bottom: 30px;
+}
+
+.fp-text #btn-white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.fp-text #btn-white:hover{
+    background-color: rgb(237 237 237);
+}
 /* / Layout */
 
 
@@ -441,8 +480,30 @@ main #jumbo-tron{
     height: 250px;
     position: absolute;
     bottom:0px;
-} */
+} 
 
+.debug #find-partner{
+    border: 2px dashed green;
+    width: 100%;
+    height: 500px;
+}
+
+.debug #find-partner .fp-photo{
+    border: 2px dashed blue;
+    float: left;
+    height: 100%;
+    width: 55%;
+    margin-right: 5%;
+}
+
+.debug #find-partner .fp-text{
+    border: 2px dashed red;
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+
+*/
 
 
 /* / Debug */
