@@ -388,6 +388,74 @@ main #jumbo-tron{
     width: 100%;
     height: 300px;
 }
+
+.quadrati-sinistra,
+.testo-centrale,
+.quadrati-destra{
+    float: left;
+    height: 100%;
+}
+
+.quadrati-sinistra,
+.quadrati-destra{
+    width: 400px;
+}
+
+.testo-centrale{
+    width: 545px;
+    background-color: #c7c7c7;
+}
+
+.top-squares,
+.bottom-squares{
+    width: 100%;
+    height: 50%;
+}
+
+.top-squares .top-left-square,
+.top-squares .top-right-square,
+.bottom-squares .bottom-left-square,
+.bottom-squares .bottom-right-square{
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.quadrati-sinistra .top-left-square{
+    background-color: #a2d39b;
+}
+
+.quadrati-sinistra .top-right-square{
+    background-color: #61082b;
+}
+
+.quadrati-sinistra .bottom-left-square{
+    background-color: #0093ce;
+}
+
+.quadrati-sinistra .bottom-right-square{
+    background-color: #ff1c1c;
+
+}
+
+.quadrati-destra .top-left-square{
+    background-color: #d5001f;
+}
+
+.quadrati-destra .top-right-square{
+    background-color: #b4d0e7;
+}
+
+.quadrati-destra .bottom-left-square{
+    background-color: #0d2481;
+}
+
+.quadrati-destra .bottom-right-square{
+    background-color: #ffd830;
+
+}
+
 /* / Layout */
 
 
@@ -419,6 +487,7 @@ main #jumbo-tron{
 .debug .testo-centrale{
     border-color: green;
     width: 545px;
+    background-color: #c7c7c7;
 }
 
 .debug .quadrati-destra{
@@ -447,8 +516,42 @@ main #jumbo-tron{
     float: left;
     height: 100%;
     width: 50%;
+    position: relative;
 }
 
+.debug .quadrati-sinistra .top-left-square{
+    background-color: #a2d39b;
+}
+
+.debug .quadrati-sinistra .top-right-square{
+    background-color: #61082b;
+}
+
+.debug .quadrati-sinistra .bottom-left-square{
+    background-color: #0093ce;
+}
+
+.debug .quadrati-sinistra .bottom-right-square{
+    background-color: #ff1c1c;
+
+}
+
+.debug .quadrati-destra .top-left-square{
+    background-color: #d5001f;
+}
+
+.debug .quadrati-destra .top-right-square{
+    background-color: #b4d0e7;
+}
+
+.debug .quadrati-destra .bottom-left-square{
+    background-color: #0d2481;
+}
+
+.debug .quadrati-destra .bottom-right-square{
+    background-color: #ffd830;
+
+}
 .debug .top-squares .top-left-square,
 .debug .bottom-squares .bottom-right-square{
     border: 2px dashed brown;
