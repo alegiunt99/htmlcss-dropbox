@@ -50,6 +50,10 @@ ul{
 .fa-check{
     color: #385fef;;
 }
+
+.font-size-14{
+    font-size: 14px;
+}
 /* / Utilities */
 
 
@@ -386,7 +390,8 @@ main #jumbo-tron{
 
 .team-partners{
     width: 100%;
-    height: 300px;
+    height: 400px;
+    margin-top: 40px;
 }
 
 .quadrati-sinistra,
@@ -459,7 +464,7 @@ main #jumbo-tron{
 /* / Layout */
 
 
-/* Debug */
+/* Debug *
 
 .debug .team-partners{
     border: 2px dashed red;
