@@ -384,12 +384,80 @@ main #jumbo-tron{
     font-size: 18px;
 }
 
+.team-partners{
+    width: 100%;
+    height: 300px;
+}
 /* / Layout */
 
 
 /* Debug */
 
+.debug .team-partners{
+    border: 2px dashed red;
+    height: 400px;
+    width: 100%;
+}
 
+.debug .quadrati-sinistra,
+.debug .testo-centrale,
+.debug .quadrati-destra{
+    float: left;
+    border: 2px dashed;
+    height: 100%;
+}
+
+.debug .quadrati-sinistra,
+.debug .quadrati-destra{
+    width: 400px;
+}
+
+.debug .quadrati-sinistra{
+    border-color: blue;
+}
+
+.debug .testo-centrale{
+    border-color: green;
+    width: 545px;
+}
+
+.debug .quadrati-destra{
+    border-color: yellow;
+}
+
+.debug .top-squares,
+.debug .bottom-squares{
+    border: 2px dashed;
+    width: 100%;
+    height: 50%;
+}
+
+.debug .top-squares{
+    border-color: orange;
+}
+
+.debug .bottom-squares{
+    border-color: violet;
+}
+
+.debug .top-squares .top-left-square,
+.debug .top-squares .top-right-square,
+.debug .bottom-squares .bottom-left-square,
+.debug .bottom-squares .bottom-right-square{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.debug .top-squares .top-left-square,
+.debug .bottom-squares .bottom-right-square{
+    border: 2px dashed brown;
+}
+
+.debug .top-squares .top-right-square,
+.debug .bottom-squares .bottom-left-square{
+    border: 2px dashed rgb(116, 168, 37);
+}
 
 /*
 .debug #db-business{
