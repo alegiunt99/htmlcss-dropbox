@@ -399,7 +399,7 @@ main #jumbo-tron{
 }
 
 .team-partners{
-    width: 100%;
+    width: 100vw;
     height: 400px;
     margin-top: 40px;
 }
@@ -413,11 +413,11 @@ main #jumbo-tron{
 
 .quadrati-sinistra,
 .quadrati-destra{
-    width: 400px;
+    width: 30%;
 }
 
 .testo-centrale{
-    width: 545px;
+    width: 40%;
     background-color: #c7c7c7;
     padding: 40px;
 }
