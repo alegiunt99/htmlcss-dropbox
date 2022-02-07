@@ -242,14 +242,14 @@ main #jumbo-tron{
 }
 
 
-.cont-col #mini-title,
-.contact-us #mini-title{
+.cont-col .mini-title,
+.contact-us .mini-title{
     border-bottom: 1px solid rgb(209 209 209);
     text-align: center;
     padding: 10px 0;
 }
 
-.cont-col #when-pay{
+.cont-col .when-pay{
     margin-bottom: 48px;
     font-size: 14px;
     color: gray;
@@ -273,11 +273,11 @@ main #jumbo-tron{
     margin-left: 20px;
 }
 
-.cont-col #buy-now a{
+.cont-col .buy-now a{
     margin-left: 0px;
 }
 
-.cont-col #buy-now{
+.cont-col .buy-now{
     font-size: 16px;
     margin: 30px 0px;
 }
